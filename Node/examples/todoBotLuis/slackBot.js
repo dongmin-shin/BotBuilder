@@ -9,7 +9,7 @@ var index = require('./dialogs/index')
 
 var controller = Botkit.slackbot();
 var bot = controller.spawn({
-   token: process.env.token
+   token: 'xoxb-41279143126-CtiRRKjRToPxr7BajGbWzskk'
 });
 
 var slackBot = new builder.SlackBot(controller, bot);
